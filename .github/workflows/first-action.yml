@@ -2,7 +2,7 @@ name: First WorkFlow #Name of the workflow
 on: workflow_dispatch # tigger on 
 jobs:  #Neccesary tag to agroup jobs
   first-job: #name of the job
-    runs-on: ubuntu-lastest # runs in
+    runs-on: ubuntu-latest # runs in
     steps: # Start the steps
       - name: Print greeting #name of the step
         run: echo "Hello World!!" # action to run
